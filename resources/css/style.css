@@ -1,0 +1,269 @@
+@font-face {
+    font-family:"futura-pt";
+    src:url("https://use.typekit.net/af/309dfe/000000000000000000010091/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/309dfe/000000000000000000010091/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/309dfe/000000000000000000010091/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+    font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+    
+@font-face {
+    font-family:"futura-pt-bold";
+    src:url("https://use.typekit.net/af/72575c/00000000000000003b9af1e5/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/72575c/00000000000000003b9af1e5/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/72575c/00000000000000003b9af1e5/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+    font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+}
+
+
+html {
+    color: hsla(175, 0%, 25%, 1);
+    background-color: white;
+}
+
+header {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+}
+
+nav h4 {
+    margin-left: 16px;
+}
+
+body {
+    font-family: "futura-pt", arial, sans-serif;
+    margin: 0px 24px;
+}
+
+a {
+    color: hsla(203, 100%, 50%, 1);
+}
+
+p {
+    margin: 0px 0px;
+}
+
+h1 {
+    font-family: "futura-pt-bold", arial, sans-serif;
+    font-weight: bold;
+    margin: 0px 0px;
+}
+
+h2 {
+    margin: 0px 0px;
+}
+
+h3 {
+    margin: 0px 0px;
+}
+
+h4 {
+    font-weight: 200;
+}
+
+h5 {
+    font-weight: 100;
+}
+
+
+
+.section_1 {
+    background-color: hsla(175, 0%, 71%, 1);
+    display: flex;
+}
+
+.bannerImg {
+    width: 60%;
+    height: auto;
+    margin: 32px 24px;
+}
+
+.bannerImg img {
+    width: 100%;
+    height: auto;
+    object-fit: scale-down;
+}
+
+.bannerText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+}
+
+.bannerText h3 {
+    padding: 24px 0;
+}
+
+.bannerText h4 {
+    margin: 8px auto;
+    text-align: center;
+}
+
+#start {
+    background-color: hsla(175, 0%, 25%, 1);
+    color: white !important;
+    width: 90%;
+}
+
+
+
+.section_2 {
+    display: flex;
+}
+
+.infoCards_container {
+    width: 35%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border-left: 3px solid lightgrey;
+}
+
+.infoCards {
+    display: flex;
+}
+
+#orientation {
+    border-bottom: 4px double lightgrey;
+    margin-top: 16px !important;
+}
+
+#guest {
+    background-color: hsla(175, 0%, 71%, 1) !important;
+}
+
+.infoCards_img {
+    width: 35%;
+    height: auto;
+    object-fit: fill;
+    padding: 16px;
+}
+
+.infoCards_img img {
+    width: 100%;
+    height: auto;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+}
+
+.infoCards_text {
+    width: 65%;
+    margin: auto 16px auto 0;
+}
+
+
+
+.section_3 {
+    background-color: hsla(175, 0%, 71%, 1);
+    padding: 32px 72px;
+}
+
+.section_3 h2 {
+    text-align: center;
+}
+
+.learningCards_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.learningCards {
+    background-color: white;
+    width: 200px;
+    margin: 32px;
+}
+
+.learningCards_text {
+    margin: 16px 16px 24px 16px;
+}
+
+.learningCards_text p {
+    color: hsla(175, 0%, 71%, 1) !important;
+    margin-top: 8px;
+}
+
+.learningCards_img {
+    width: 100%;
+    height: auto;
+}
+
+.learningCards_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+
+
+.thesisContainer {
+    display: flex;
+    margin: 0 24px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.thesisShowcase {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.section_4 h2 {
+    text-align: center;
+    margin: 32px;
+}
+
+video {
+    border: 2px solid lightgrey;
+    margin: 0 24px 24px 0;
+}
+
+#thesisCardContainer {
+    border: none;
+}
+
+#fisma {
+    background-color: hsla(175, 0%, 71%, 1) !important;
+}
+
+.section_4 p {
+    margin: 8px 0 32px;
+}
+
+
+
+.topLogo {
+    font-size: larger;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+footer {
+    display: flex;
+    align-content: center;
+    margin-top: 16px;
+    justify-content: space-between;
+}
+
+#terms {
+    display: flex;
+}
+
+#terms h5 {
+    margin-left: 10px;
+}
+
+#colemar {
+    font-family: "futura-pt-bold", arial, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+}
+
+#academy {
+    color: hsla(175, 0%, 71%, 1) !important;
+    display: inline-block;
+}
