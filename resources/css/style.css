@@ -23,13 +23,23 @@ header {
     justify-content: space-between;
 }
 
-nav {
+/*nav {
     display: flex;
     justify-content: right;
+}*/
+
+nav ul {
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
 }
 
-nav h4 {
+nav li {
     margin-left: 16px;
+}
+
+nav img {
+    display: none;
 }
 
 body {
@@ -114,6 +124,10 @@ h5 {
     display: flex;
 }
 
+.bannerImg h2 {
+    margin: 32px 0 24px 0;
+}
+
 .infoCards_container {
     width: 35%;
     height: auto;
@@ -132,7 +146,7 @@ h5 {
 }
 
 #guest {
-    background-color: hsla(175, 0%, 71%, 1) !important;
+    background-color: hsla(175, 0%, 71%, 1);
 }
 
 .infoCards_img {
@@ -266,4 +280,198 @@ footer {
 #academy {
     color: hsla(175, 0%, 71%, 1) !important;
     display: inline-block;
+}
+
+.mobile {
+    display: none;
+}
+
+
+
+@media only all and (max-width: 600px) {
+    html, html body, body {
+        width: 100% !important;
+        min-width: 0 !important;
+        max-width: none !important;
+        overflow-x: hidden;
+        margin: 0;
+    }
+    
+    .topLogo {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    nav ul {
+        display: none;
+    }
+    
+    nav img {
+        display: block;
+    }
+
+    h2 {
+        margin: 32px 0 16px !important;
+    }
+
+    .section_1 {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .bannerImg {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    
+    .bannerImg img {
+        width: 100%;
+        height: auto;
+        object-fit: scale-down;
+    }
+
+    .bannerText {
+        display: block;
+        padding: 32px 16px;
+        width: auto;
+    }
+
+    .bannerText h4 {
+        margin: auto 0;
+        text-align: center;
+    }
+
+    #start {
+        height: 32px;
+        width: 100%;
+        padding: 8px 0 0;
+    }
+
+    .section_2 {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .section_2 .bannerImg {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .infoCards_container {
+        display: block;
+        width: auto;
+        border: 0;
+        margin: 0;
+    }
+
+    .infoCards {
+        display: block;
+    }
+
+    .infoCards_img {
+        width: auto;
+        height: auto;
+        object-fit: fill;
+        padding: 16px;
+    }
+    
+    .infoCards_img img {
+        width: 100%;
+        height: auto;
+        border: 0;
+    }
+
+    .infoCards_text {
+        width: auto;
+        margin: auto 16px;
+    }
+
+    #orientation {
+        margin: 0;
+        border: 0;
+    }
+
+    #guest {
+        background-color: white;
+    }
+
+    .section_3 {
+        display: block;
+        background-color: white;
+        display: block;
+        padding: 32px 16px;
+        width: auto;
+    }
+
+    .section_3 p {
+        display: none;
+    }
+
+    .learningCards {
+        background-color: lightgrey;
+        width: 100%;
+        margin: 8px 0;
+    }
+
+    .learningCards_text {
+        width: auto;
+        margin: 16px 16px 24px;
+    }
+
+    .learningCards_img {
+        display: none;
+    }
+
+    .section_4 {
+        display: block;
+    }
+
+    .thesisShowcase {
+        width: 100%;
+        height: auto;
+    }
+
+    .thesisShowcase h3 {
+        display: none;
+    }
+
+    .thesisShowcase p {
+        display: none;
+    }
+
+    video {
+        border: 0;
+        margin: 0;
+    }
+
+    #thesisCardContainer {
+        display: none;
+    }
+
+    footer {
+        margin: 16px;
+    }
+
+    h5 {
+        margin: 0;
+    }
+
+    #terms {
+        display: none;
+    }
 }
